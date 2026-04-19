@@ -27,7 +27,7 @@ export default function Education() {
               {/* Header */}
               <div className="flex items-start gap-4 mb-5">
                 <div
-                  className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center"
+                  className="shrink-0 w-10 h-10 rounded-lg flex items-center justify-center"
                   style={{
                     background: "var(--color-accent-glow)",
                     border: "1px solid rgba(99,102,241,0.2)",
@@ -47,7 +47,7 @@ export default function Education() {
                     </h3>
                     {edu.gpa && (
                       <span
-                        className="flex-shrink-0 text-xs font-bold px-2.5 py-1 rounded-lg"
+                        className="shrink-0 text-xs font-bold px-2.5 py-1 rounded-lg"
                         style={{
                           background: "var(--color-accent-glow)",
                           border: "1px solid rgba(99,102,241,0.2)",

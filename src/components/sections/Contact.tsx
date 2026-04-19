@@ -113,7 +113,7 @@ export default function Contact() {
                 color: "#4ade80",
               }}
             >
-              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse flex-shrink-0" aria-hidden="true" />
+              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse shrink-0" aria-hidden="true" />
               Currently available — response within 24 hours
             </div>
           </div>
